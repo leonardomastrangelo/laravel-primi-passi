@@ -18,11 +18,32 @@
             body {
                 font-family: 'Nunito', sans-serif;
             }
+            span {
+                font-size: 1.3em;
+                font-weight: 700 ;
+            }
+            ul {
+                list-style: none;
+            }
         </style>
     </head>
     <body class="antialiased">
-       <h1 class="text-center display-1">
+       <h1 class="text-center">
             Hello World!!
        </h1>
+       <ul class="text-center">
+            <li>
+                Name : <span>{{$name}}</span>
+            </li>
+            <li>
+                Surname : <span>{{$surname}}</span>
+            </li>
+            <li>
+                Role : <span>{{$role}}</span>
+            </li>
+            <li>
+                Age : <span>{{$age}}</span>
+            </li>
+       </ul>
     </body>
 </html>
