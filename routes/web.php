@@ -21,4 +21,10 @@ Route::get('/', function () {
         'age'=> 21,
     ];
     return view('home', $data);
-});
+})->name('home');
+Route::get('/about', function () {
+    return view('features.about');
+})->name('about');
+Route::get('/discover', function () {
+    return view('features.discover');
+})->name('discover');

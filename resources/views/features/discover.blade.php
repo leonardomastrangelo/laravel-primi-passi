@@ -38,10 +38,6 @@
             img {
                 display: block;
             }
-            span {
-                font-size: 1.3em;
-                font-weight: 700 ;
-            }
             ul {
                 list-style: none;
             }
@@ -49,43 +45,30 @@
     </head>
     <body class="antialiased">
         <nav>
-            <div>
-                <img src="https://picsum.photos/100/100" alt="logo">
-            </div>
-            <ul>
-                <li>
-                    <a href="{{route('home')}}">
-                        home
-                    </a>
-                </li>
-                <li>
-                    <a href="{{route('about')}}">
-                        about
-                    </a>
-                </li>
-                <li>
-                    <a href="{{route('discover')}}">
-                        discover
-                    </a>
-                </li>
-            </ul>
-        </nav>
+             <div>
+                 <img src="https://picsum.photos/100/100" alt="logo">
+             </div>
+             <ul>
+                 <li>
+                     <a href="{{route('home')}}">
+                         home
+                     </a>
+                 </li>
+                 <li>
+                     <a href="{{route('about')}}">
+                         about
+                     </a>
+                 </li>
+                 <li>
+                     <a href="{{route('discover')}}">
+                         discover
+                     </a>
+                 </li>
+             </ul>
+         </nav>
        <h1 class="text-center">
-            Hello World!!
+            Hello Discover!!
        </h1>
-       <ul class="text-center">
-            <li>
-                Name : <span>{{$name}}</span>
-            </li>
-            <li>
-                Surname : <span>{{$surname}}</span>
-            </li>
-            <li>
-                Role : <span>{{$role}}</span>
-            </li>
-            <li>
-                Age : <span>{{$age}}</span>
-            </li>
-       </ul>
+       
     </body>
 </html>
